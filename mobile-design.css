@@ -1,0 +1,22 @@
+@media (max-width:375px) {
+    #card {
+        min-width: 300px;
+        max-width: 95vw;
+        height: max-content;
+        margin: 50px auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .art-cover {
+        width: 90vw;
+        min-width: 270px;
+        height: auto;
+    }
+
+    .nft-art {
+        width: 90vw;
+        min-width: 270px;
+        height: auto;
+    }
+}

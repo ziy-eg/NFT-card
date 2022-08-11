@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ziyad m> Ghobashi">
+  <meta name="description" content="This is a challenge to build out NFT card component and get it looking as close to the design as possible.
+    Using HTML/CSS only.
+    users should be able to:
+    - View the optimal layout depending on their device's screen size
+    - See hover states for interactive elements">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="mobile-design.css">
+
+  <link rel="icon" type="image/png" sizes="35x35" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./images">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body>
+  <main id="card">
+    <img class="nft-art" src="./images/image-equilibrium.jpg" alt="NFT Art" width="340" height="340" />
+    <div class="art-cover">
+      <img class="nft-cover" src="./images/icon-view.svg" alt="NFT Cover" width="50" height="50" />
+    </div>
+    <span class="card-name">Equilibrium #3429</span>
+    <p class="card-info">Our Equilibrium collection promotes balance and calm.</p>
+    <div id="offer">
+      <span class="price">
+        <img class="ethereum" src="./images/icon-ethereum.svg" alt="Ethereum Icon" width="15" height="15" >
+         0.041 ETH
+      </span>
+      <span><img class="clock" src="./images/icon-clock.svg" alt="Clock icon" width="15" height="15" /> 3 days left</span>
+    </div>
+    <hr>
+    <div id="creator">
+      <img class="creator-img" src="./images/image-avatar.png" alt="Creator Image" width="50" height="50" />
+      <p class="creator-name"> Jules Wyvern</p>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/ziy-eg" target="_blank">Ziyad M. Ghobashi</a>.
+  </footer>
+</body>
+</html>

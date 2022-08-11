@@ -1,0 +1,134 @@
+:root {
+    --Soft-blue: hsl(215, 52%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --main-blue: hsl(217, 54%, 11%);
+    --card-blue: hsl(216, 50%, 16%);
+    --line-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --padding: 20px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--main-blue);
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    color: var(--White);
+}
+
+#card {
+    min-width: 340px;
+    max-width: min-content;
+    height: 630px;
+    background-color: var(--card-blue);
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    transition-property: box-shadow;
+    transition-duration: 200ms;
+    transition-delay: 10ms;
+    transition-timing-function: ease-in-out;
+}
+
+#card:hover {
+    box-shadow: 0 0 40px 1px var(--Cyan);
+    transform: scale(1.005);
+}
+
+.art-cover {
+    width: 340px;
+    height: 340px;
+    background: rgba(0, 255, 247, 20%);
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: none;
+}
+
+.nft-cover {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nft-art {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.nft-art:hover + .art-cover {
+    display: initial;
+}
+
+.card-name {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.card-name:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.card-info {
+    margin: 20px 0;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+#offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: var(--Cyan);
+}
+
+hr {
+    color: var(--line-blue);
+    opacity: 50%;
+    margin: 5px;
+}
+
+#creator {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.creator-img {
+    display: inline;
+    border-radius: 50%;
+    border: 2px solid var(--White);
+    margin-right: 10px;
+}
+
+.creator-name::before {
+    content: 'Creation of';
+    opacity: 50%;
+}
+
+.creator-name:hover {
+    cursor: pointer;
+    color: var(--Cyan);
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
