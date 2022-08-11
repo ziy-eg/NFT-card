@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://github.com/ziy-eg/NFT-card)
 - Live Site URL: (https://ziy-eg.github.io/NFT-card/)
 
 ## My process
