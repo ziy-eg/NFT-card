@@ -6,7 +6,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -24,12 +24,12 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-- [Desktop View](./design/desktop-view.png)
-- [Desktop active View](./design/desktop-active.png)
-- [Mobile View](./design/mobile-view.png)
-- [Mobile active View](./design/mobile-active.png)
+![Desktop View](./design/desktop-view.png)
+![Desktop active View](./design/desktop-active.png)
+![Mobile View](./design/mobile-view.png)
+![Mobile active View](./design/mobile-active.png)
 
 ### Links
 
